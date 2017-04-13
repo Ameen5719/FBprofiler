@@ -41,10 +41,16 @@ function getval(token) {
                     $("#story1").append(data.data[1].story);
                     $("#story2").append(data.data[2].story);
                     $("#story3").append(data.data[3].story);
-                    $("a#link0").attr("herf",data.data[0].link);
-                    $("a#link1").attr("herf",data.data[1].link);
-                    $("a#link2").attr("herf",data.data[2].link);
-                    $("a#link3").attr("herf",data.data[3].link);
+
+                    var link0 = data.data[0].link;
+                    $("a#link0").attr("href", ""+link0);
+                    var link1 = data.data[1].link;
+                    $("a#link1").attr("href", ""+link1);
+                    var link2 = data.data[2].link;
+                    $("a#link2").attr("href", ""+link2);
+                    var link3 = data.data[3].link;
+                    $("a#link3").attr("href", ""+link3);
+
 
 //for (i = 0; i < 4; i++) {
                     //    var name = "from" + i;
