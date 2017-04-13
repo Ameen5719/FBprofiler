@@ -33,23 +33,27 @@ function getval(token) {
                     $("#from1").append(data.data[1].from.name);
                     $("#from2").append(data.data[2].from.name);
                     $("#from3").append(data.data[3].from.name);
+                    $("#from3").append(data.data[4].from.name);
+                    $("#from3").append(data.data[5].from.name);
                     $("#pic0").attr("src","https://graph.facebook.com/"+ data.data[0].from.id + "/picture?type=square");
                     $("#pic1").attr("src","https://graph.facebook.com/"+ data.data[1].from.id + "/picture?type=square");
                     $("#pic2").attr("src","https://graph.facebook.com/"+ data.data[2].from.id + "/picture?type=square");
                     $("#pic3").attr("src","https://graph.facebook.com/"+ data.data[3].from.id + "/picture?type=square");
+                    $("#pic3").attr("src","https://graph.facebook.com/"+ data.data[4].from.id + "/picture?type=square");
+                    $("#pic3").attr("src","https://graph.facebook.com/"+ data.data[5].from.id + "/picture?type=square");
                     $("#story0").append(data.data[0].story);
                     $("#story1").append(data.data[1].story);
                     $("#story2").append(data.data[2].story);
                     $("#story3").append(data.data[3].story);
+                    $("#story3").append(data.data[4].story);
+                    $("#story3").append(data.data[5].story);
 
-                    var link0 = data.data[0].link;
-                    $("a#link0").attr("href", ""+link0);
-                    var link1 = data.data[1].link;
-                    $("a#link1").attr("href", ""+link1);
-                    var link2 = data.data[2].link;
-                    $("a#link2").attr("href", ""+link2);
-                    var link3 = data.data[3].link;
-                    $("a#link3").attr("href", ""+link3);
+                    $("a#link0").attr("href", data.data[0].link);
+                    $("a#link1").attr("href", data.data[1].link);
+                    $("a#link2").attr("href", data.data[2].link);
+                    $("a#link3").attr("href", data.data[3].link);
+                    $("a#link3").attr("href", data.data[4].link);
+                    $("a#link3").attr("href", data.data[5].link);
 
 
 //for (i = 0; i < 4; i++) {
