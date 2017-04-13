@@ -35,12 +35,12 @@ function getval(token) {
                     $("#from3").append(data.data[3].from.name);
                     $("#from4").append(data.data[4].from.name);
                     $("#from5").append(data.data[5].from.name);
-                    $("#pic0").attr("src","https://graph.facebook.com/"+ data.data[0].from.id + "/picture?type=square");
-                    $("#pic1").attr("src","https://graph.facebook.com/"+ data.data[1].from.id + "/picture?type=square");
-                    $("#pic2").attr("src","https://graph.facebook.com/"+ data.data[2].from.id + "/picture?type=square");
-                    $("#pic3").attr("src","https://graph.facebook.com/"+ data.data[3].from.id + "/picture?type=square");
-                    $("#pic4").attr("src","https://graph.facebook.com/"+ data.data[4].from.id + "/picture?type=square");
-                    $("#pic5").attr("src","https://graph.facebook.com/"+ data.data[5].from.id + "/picture?type=square");
+                    $("#pic0").attr("src", "https://graph.facebook.com/" + data.data[0].from.id + "/picture?type=square");
+                    $("#pic1").attr("src", "https://graph.facebook.com/" + data.data[1].from.id + "/picture?type=square");
+                    $("#pic2").attr("src", "https://graph.facebook.com/" + data.data[2].from.id + "/picture?type=square");
+                    $("#pic3").attr("src", "https://graph.facebook.com/" + data.data[3].from.id + "/picture?type=square");
+                    $("#pic4").attr("src", "https://graph.facebook.com/" + data.data[4].from.id + "/picture?type=square");
+                    $("#pic5").attr("src", "https://graph.facebook.com/" + data.data[5].from.id + "/picture?type=square");
                     $("#story0").append(data.data[0].story);
                     $("#story1").append(data.data[1].story);
                     $("#story2").append(data.data[2].story);
@@ -56,7 +56,7 @@ function getval(token) {
                     $("a#link5").attr("href", data.data[5].link);
 
 
-//for (i = 0; i < 4; i++) {
+                    //for (i = 0; i < 4; i++) {
                     //    var name = "from" + i;
                     //    var story = "story" + i;
                     //    var time = "time" + i;

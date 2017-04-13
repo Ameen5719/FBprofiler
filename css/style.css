@@ -1,17 +1,21 @@
-#login{
+#login {
     height: 100vh;
 }
-#profilepic{
+
+#profilepic {
     height: 150px;
     width: 150px;
 }
+
 div.jumbotron {
-	background-color:#f2f2f2;
+    background-color: #f2f2f2;
     border-radius: 10px;
 }
-div.col-md-4{
+
+div.col-md-4 {
     height: 400px;
 }
-#body{
+
+#body {
     background-color: #d9d9d9;
 }
